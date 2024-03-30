@@ -21,22 +21,22 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 if (isset($_ENV['DATABASE'])) {
-  define( 'DB_NAME', $_ENV['DATABASE'] );
+  define( 'DB_NAME', $_ENV['workbench91'] );
 }
 
 /** Database username */
 if (isset($_ENV['USERNAME'])) {
-  define( 'DB_USER', $_ENV['USERNAME'] );
+  define( 'DB_USER', $_ENV['workbench91_owne'] );
 }
 
 /** Database password */
 if (isset($_ENV['PASSWORD'])) {
-  define( 'DB_PASSWORD', $_ENV['PASSWORD'] );
+  define( 'DB_PASSWORD', $_ENV['tx3aLBweiSh9'] );
 }
 
 /** Database hostname */
 if (isset($_ENV['HOST'])) {
-  define( 'DB_HOST', $_ENV['HOST'] );
+  define( 'DB_HOST', $_ENV['ep-long-fog-a57kbosv.us-east-2.aws.neon.tech'] );
 }
 
 /** Database charset to use in creating database tables. */
